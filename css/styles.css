@@ -11,6 +11,7 @@
   --btn-second-color: #f5f4fa;
   --btn-accent-color: #188ce8;
   --btn-text-color: #ffffff;
+  --btn-second-text-color: #212121;
   --header-footer-accent-color: #2196f3;
   --logo-first-text-color: #000000;
   --logo-second-text-color: #2196f3;
@@ -90,7 +91,6 @@ body {
 .header-mail:focus,
 .header-tel:focus {
   color: var(--header-footer-accent-color);
-  cursor: pointer;
 }
 
 /*-------------------------HERO-------------------------*/
@@ -242,6 +242,7 @@ body {
 }
 
 /*-------------------------FOOTER-------------------------*/
+
 .footer-container {
   background-color: var(--background-second-color);
 }
@@ -289,4 +290,80 @@ body {
 .footer-tel:focus {
   color: var(--header-footer-accent-color);
   cursor: pointer;
+}
+
+/*-----------------------PORTFOLIO-BTN----------------------*/
+
+.portfolio-container {
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.portfolio-btn-list {
+}
+
+.portfolio-btn-item {
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--btn-second-text-color);
+  border: 0;
+
+  background: var(--btn-second-color);
+  border-radius: 4px;
+}
+
+.portfolio-btn-active,
+.portfolio-btn:hover,
+.portfolio-btn:focus,
+.portfolio-btn:active {
+  background: var(--btn-main-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*-----------------------PORTFOLIO-PROJECTS--------------------*/
+.portfolio-projects-list {
+}
+
+.portfolio-projects-item {
+  border-bottom: 1px solid #eeeeee;
+}
+.portfolio-projects-link {
+}
+
+.portfolio-projects-img {
+}
+.portfolio-projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-second-color);
+}
+
+.portfolio-projects-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-second-color);
 }
