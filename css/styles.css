@@ -1,19 +1,27 @@
 :root {
   --background-main-color: #ffffff;
+  --background-second-color: #2f303a;
+  --background-third-color: #f5f4fa;
   --title-main-color: #ffffff;
   --title-second-color: #212121;
   --text-main-color: #212121;
   --text-second-color: #757575;
+  --text-third-color: #ffffff;
   --btn-main-color: #2196f3;
   --btn-second-color: #f5f4fa;
   --btn-accent-color: #188ce8;
   --btn-text-color: #ffffff;
-  --header-accent-color: #2196f3;
+  --header-footer-accent-color: #2196f3;
+  --logo-first-text-color: #000000;
+  --logo-second-text-color: #2196f3;
+  --logo-third-text-color: #ffffff;
+  --footer-tel-mail-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background-main-color);
+  color: var(--text-main-color);
 }
 
 .list {
@@ -26,8 +34,10 @@ body {
 
 /*-------------------------HEADER-------------------------*/
 
-.header {
-  background-color: var(--background-main-color);
+.header-container {
+}
+
+.header-nav {
 }
 
 .header-logo {
@@ -36,11 +46,17 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-first-text-color);
 }
 
 .header-logo-color {
-  color: #000000;
+  color: var(--logo-second-text-color);
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
 }
 
 .header-nav-link {
@@ -49,6 +65,12 @@ body {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.header-list {
+}
+
+.header-item {
 }
 
 .header-mail,
@@ -67,14 +89,14 @@ body {
 .header-tel:hover,
 .header-mail:focus,
 .header-tel:focus {
-  color: var(--header-accent-color);
+  color: var(--header-footer-accent-color);
   cursor: pointer;
 }
 
 /*-------------------------HERO-------------------------*/
 
-.hero {
-  background: #2f303a;
+.hero-container {
+  background-color: var(--background-second-color);
 }
 
 .hero-title {
@@ -109,11 +131,17 @@ body {
 .hero-btn:active {
   background-color: var(--btn-accent-color);
   cursor: pointer;
-
-  /*-------------------------BENEFITS-------------------------*/
 }
-.benefits {
-  background-color: var(--background-main-color);
+
+/*-------------------------BENEFITS-------------------------*/
+
+.benefits-container {
+}
+
+.benefits-list {
+}
+
+.benefits-item {
 }
 
 .visually-hidden {
@@ -143,4 +171,122 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-second-color);
+}
+/*-------------------------SERVICES-------------------------*/
+.services-container {
+}
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-second-color);
+}
+.services-list {
+}
+.list {
+}
+.services-item {
+}
+.services-img-1 {
+}
+.services-img-2 {
+}
+.services-img-3 {
+}
+
+/*-------------------------TEAM-------------------------*/
+
+.team-container {
+  background-color: var(--background-third-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-second-color);
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+  background-color: var(--background-main-color);
+}
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-second-color);
+}
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-second-color);
+}
+.team-img-1 {
+}
+.team-img-2 {
+}
+.team-img-3 {
+}
+.team-img-4 {
+}
+
+/*-------------------------FOOTER-------------------------*/
+.footer-container {
+  background-color: var(--background-second-color);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-third-text-color);
+}
+
+.footer-logo-color {
+  color: var(--logo-second-text-color);
+}
+.footer-list {
+}
+
+.footer-item {
+}
+
+.footer-adds {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-third-color);
+}
+
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-tel-mail-color);
+}
+
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--header-footer-accent-color);
+  cursor: pointer;
 }
