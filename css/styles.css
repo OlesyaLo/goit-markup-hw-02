@@ -23,6 +23,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background-main-color);
   color: var(--text-main-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -46,7 +48,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--logo-first-text-color);
 }
 
@@ -62,7 +63,6 @@ body {
 
 .header-nav-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: #212121;
@@ -77,7 +77,6 @@ body {
 .header-mail,
 .header-tel {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
@@ -120,6 +119,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--btn-text-color);
   border: 0;
+  cursor: pointer;
 
   background: var(--btn-main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -130,7 +130,6 @@ body {
 .hero-btn:focus,
 .hero-btn:active {
   background-color: var(--btn-accent-color);
-  cursor: pointer;
 }
 
 /*-------------------------BENEFITS-------------------------*/
@@ -159,17 +158,12 @@ body {
 
 .benefits-item-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-second-color);
 }
 .benefits-item-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--text-second-color);
 }
 /*-------------------------SERVICES-------------------------*/
@@ -180,7 +174,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-second-color);
 }
 .services-list {
@@ -206,7 +199,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-second-color);
 }
 .team-list {
@@ -221,7 +213,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-second-color);
 }
 .team-item-text {
@@ -229,7 +220,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--text-second-color);
 }
 .team-img-1 {
@@ -252,7 +242,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--logo-third-text-color);
 }
 
@@ -268,9 +257,7 @@ body {
 .footer-adds {
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--text-third-color);
 }
 
@@ -278,9 +265,7 @@ body {
 .footer-tel {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-tel-mail-color);
 }
 
@@ -324,6 +309,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--btn-second-text-color);
   border: 0;
+  cursor: pointer;
 
   background: var(--btn-second-color);
   border-radius: 4px;
@@ -336,8 +322,7 @@ body {
   background: var(--btn-main-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  cursor: pointer;
+  color: var(--btn-text-color);
 }
 
 /*-----------------------PORTFOLIO-PROJECTS--------------------*/
@@ -361,9 +346,7 @@ body {
 }
 
 .portfolio-projects-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--text-second-color);
 }
