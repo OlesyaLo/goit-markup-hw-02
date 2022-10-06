@@ -253,25 +253,25 @@ body {
 .footer-item {
 }
 
-.footer-adds {
+.footer-contacts-map {
   font-weight: 400;
   font-style: normal;
   line-height: 1.71;
   color: var(--text-third-color);
 }
 
-.footer-mail,
-.footer-tel {
+.footer-contacts-mail,
+.footer-contacts-tel {
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   color: var(--footer-tel-mail-color);
 }
 
-.footer-mail:hover,
-.footer-mail:focus,
-.footer-tel:hover,
-.footer-tel:focus {
+.footer-contacts-mail:hover,
+.footer-contacts-mail:focus,
+.footer-contacts-tel:hover,
+.footer-contacts-tel:focus {
   color: var(--header-footer-accent-color);
   cursor: pointer;
 }
