@@ -82,7 +82,7 @@ body {
   color: #757575;
 }
 
-.current,
+.header-nav-link.current,
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-mail:hover,
@@ -314,7 +314,7 @@ body {
   border-radius: 4px;
 }
 
-.portfolio-btn-active,
+.portfolio-btn.active,
 .portfolio-btn:hover,
 .portfolio-btn:focus,
 .portfolio-btn:active {
